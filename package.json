@@ -1,0 +1,21 @@
+{
+  "name": "xmlserializer-problems-testcase",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "vue-cli-service test:unit --require tests/setup_dom.js --colors tests/"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.2.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-unit-mocha": "~5.0.0-rc.2",
+    "@vue/cli-service": "^5.0.0-rc.2",
+    "@vue/test-utils": "2.0.0-rc.17",
+    "chai": "^4.3.4",
+    "global-jsdom": "^8.4",
+    "jsdom": "^19.0.0",
+    "webpack": "^5.65.0"
+  }
+}

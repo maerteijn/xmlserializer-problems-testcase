@@ -1,1 +1,1 @@
-require("global-jsdom/register")
+require("jsdom-global")()

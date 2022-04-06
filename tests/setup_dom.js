@@ -1,3 +1,3 @@
-require("global-jsdom/register")
+require("jsdom-global")()
 
 global.XMLSerializer = window.XMLSerializer
